@@ -1,0 +1,101 @@
+.image{
+    /* margin-top: -10px; */
+    height: 50px;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left:650px;
+    margin-top:-100px;
+    width: 85%;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    font-style: bold;
+    /* To vertically place child elements center */
+}
+ul li{
+    list-style: none;
+    display: inline;
+    /* to place li items in same line */
+    margin: 10px 25px;
+}
+button{
+    background-color: blue;
+    color: white;
+}
+.image-container{
+    /* margin-top: 80px; */
+    width: 100%;
+  height: 400px;
+  background-size: 100% 100%;
+  border: 1px solid black;
+  margin-bottom: 200px;
+}
+
+.image-container h1{
+    color: black;
+}
+.image-container p{
+  margin-left: 600px;
+
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+.centered p{
+ margin-left: 20%;
+  font-size: 20px;
+  color: white;
+}
+.centered h1{
+    font-size: 20px;
+    color: white;
+}
+
+.place h3{
+  font-size: bold;
+}
+#contact{
+    margin: 8% 8% 0px 8%;
+}
+.icon-set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.icon,.up-arrow{
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    margin: 0px 20px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+}
+.icon i{
+    font-size: 30px;
+    color: black;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,yellow,red);
+}
+.icon:hover i{
+    color: white;
+    animation: shake 0.75s;
+}
+.icon a{
+    text-decoration: none;
+}
+
+
+
+
