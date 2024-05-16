@@ -6,14 +6,18 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin-left:650px;
-    margin-top:-100px;
-    width: 85%;
+    margin-top:0px;
+    width: 100%;
+    height: 150px;
     align-items: center;
     color: black;
     font-size: 20px;
     font-style: bold;
     /* To vertically place child elements center */
+}
+.navbar img{
+    width: 200px;
+    height: 150px;
 }
 ul li{
     list-style: none;
@@ -26,7 +30,7 @@ button{
     color: white;
 }
 .image-container{
-    /* margin-top: 80px; */
+    margin-top: 10px;
     width: 100%;
   height: 400px;
   background-size: 100% 100%;
@@ -43,13 +47,14 @@ button{
 }
 .centered {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50px;
     font-weight: bolder;
     color: white;
 }
+
 .centered p{
  margin-left: 20%;
   font-size: 20px;
@@ -65,12 +70,14 @@ button{
 }
 #contact{
     margin: 8% 8% 0px 8%;
+    text-align: center;
+
 }
 .icon-set{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3%;
+    margin-top: 1%;
 }
 .icon,.up-arrow{
     height: 50px;
@@ -86,7 +93,7 @@ button{
     color: black;
 }
 .icon:hover{
-    background-image: linear-gradient(to bottom right,yellow,red);
+    background-image: linear-gradient(to bottom right,blue,white);
 }
 .icon:hover i{
     color: white;
