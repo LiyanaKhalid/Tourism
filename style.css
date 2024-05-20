@@ -13,6 +13,7 @@
     color: black;
     font-size: 20px;
     font-style: bold;
+
     /* To vertically place child elements center */
 }
 .navbar img{
@@ -24,6 +25,10 @@ ul li{
     display: inline;
     /* to place li items in same line */
     margin: 10px 25px;
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
 }
 button{
     background-color: blue;
